@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Divisble</title>
+</head>
+<body>
+    <h1>Divisble</h1>
+    <p>Enter a number:</p>
+    <input type="text" id="userNumber">
+    <button onclick="divisble()">Print</button>
+    <p id="result"></p>
+
+    <script>
+        function calculatePowerOf2() {
+            const userNumberInput = document.getElementById('userNumber');
+            const userNumber = parseFloat(userNumberInput.value);
+
+            if (!isNaN(userNumber)) {
+                const result = a%3==0;
+
+                const resultElement = document.getElementById('result');
+                resultElement.textContent = `the square of ${userNumber} is:${result}`;
+            } else {
+                alert("Please enter a valid number.");
+            }
+        }
+    </script>
+</body>
+</html>

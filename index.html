@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Demo</title>
+    <!-- <script src="demo.js"></s> -->
+</head>
+<body>
+    <h1 id="hd1">Response to Event</h1>
+    <p id="para1">First paragraph</p>
+    <p id="para2">Second paragraph</p>
+    <p id="para3">Third paragraph</p>
+    <script>
+        function changeText(){
+            var hd1 = document.getElementById("para2");
+            para2.textcontent="i love javascript";
+
+        }
+    
+        function changeBg(){
+            var hd1 = document.getElementById("hd1");
+           hd1.stype.backgroundColor="yellow";
+
+        }
+        function init(){
+            var para1 = document.getElementById("para1");
+            para1.onclick = changeText;
+
+            var para3 = document.getElementById("para3");
+            para3.onclock = changeBg;
+
+         }
+    </script>
+    
+</body>
+</html>
